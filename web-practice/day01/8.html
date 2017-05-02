@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>8.html</title>
+    </head>
+    <body>
+        <header>
+            <h1>修改个人信息</h1>
+        </header>
+        <section>
+            <form>
+                <table border="1" cellpadding="5" cellspacing="0" width="">
+                    <tr>
+                        <td>姓名:</td>
+                        <td><input type="text" name="" value=""></td>
+                        <td rowspan="7" width="200px">
+                            <details>
+                                <summary>各项<mark>技能</mark>指数</summary>
+                                <div>
+                                    HTML <meter value="100" min="0" max="100"></meter> <br>
+                                    CSS3 <meter value="90" min="0" max="100"></meter> <br>
+                                    AJAX <meter value="40" min="0" max="100"></meter>
+                                </div>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>性别:</td>
+                        <td>
+                            <input type="radio" name="sex" value="" checked> 女士
+                            <input type="radio" name="sex" value=""> 男士
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>学历:</td>
+                        <td>
+                            <select>
+                                <option value="">本科</option>
+                                <option value="" selected>其他</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>意向工作城市:</td>
+                        <td>
+                            <select size="5" multiple>
+                                <option value="">北京</option>
+                                <option value="">上海</option>
+                                <option value="">南京</option>
+                                <option value="">深圳</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>个人描述:</td>
+                        <td><textarea rows="12" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" id="cb" value="">
+                            <label for="cb">不要公开我的个人信息</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="" value="保存">
+                            <input type="reset" name="" value="重填">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </body>
+</html>

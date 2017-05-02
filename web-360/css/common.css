@@ -1,0 +1,162 @@
+/*◊‹ÃÂ…Ë÷√*/
+body{
+    font-size: 14px;
+    color: #666;
+    font-family: "Microsoft yahei",Arial;
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*section,footer{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+#description,#tixing,#icons{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header,#banner,#hujiao,#dingwei,footer{
+    width: 100%;
+}
+
+header{
+    height: 50px;
+}
+
+#banner{
+    height: 550px;
+}
+
+#description,#hujiao,#tixing,#dingwei{
+    height: 650px;
+}
+
+#icons{
+    height: 480px;
+}
+
+footer{
+    height: 170px;
+}
+
+/***********************************************/
+
+header{
+    /*border: 0;*/
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header div.content{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header div.logo{
+    width: 153px;
+    height: 28px;
+    background: url("../img/iconlist_1.png") no-repeat -868px -100px;
+    float: left;
+    margin-top: 11px;
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    padding: 0 15px;
+    line-height: 47px;
+    display: inline-block;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+header ul li a:hover,header ul li a.active{
+    border-bottom: 3px solid #f1595f;
+    transition: border 0.2s linear;
+}
+
+header a.android,header a.ios{
+    width: 86px;
+    height: 26px;
+    background: url("../img/iconlist_2.png") no-repeat -1654px -508px;
+    margin-top: 12px;
+    margin-left: 15px;
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+header a.ios{
+    background-position: -1654px -535px;
+    padding-left: 0;
+}
+
+header a.android:hover,a.ios:hover{
+    border-bottom: 0;
+}
+
+
+/***********************footer************************/
+
+footer{
+    background-color: #363636;
+    border: 1px solid #363636;
+    color: #969696;
+    padding: 15px 0px;
+}
+
+footer div.content{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+footer ul{
+    float: left;
+    width: 120px;
+    margin-left: 50px;
+}
+
+footer ul h3{
+    font-size: 15pt;
+    font-weight: normal;
+    margin: 10px auto;
+}
+
+footer ul li{
+    line-height: 28px;
+}
+
+footer p{
+    float: right;
+}
+
+footer div.content div{
+    clear: left;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p.weibo,footer p.weixin{
+    float: left;
+    width: 214px;
+    height: 112px;
+    background: url("../img/iconlist_2.png") no-repeat 0 -590px;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+
+footer p.weixin{
+    margin-left: 50px;
+    background-position: -215px -590px;
+}
