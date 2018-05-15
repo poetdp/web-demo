@@ -6,8 +6,3 @@
 
 我的 web 开发学习记录
 
-## License
-
-![license](https://img.shields.io/github/license/rocj/web-demo.svg?style=flat-square)
-
-Released under the [MIT](./LICENSE) license.
